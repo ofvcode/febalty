@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white mt-auto">
+    <footer className="bg-secondary text-white mt-auto pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
@@ -53,7 +53,7 @@ export default function Footer() {
           </p>
           <p className="text-slate-500 text-sm">
             Built by{" "}
-            <a href="https://buy.stripe.com/5kQfZj0J719ZblkaNk6wE05" className="text-accent hover:text-accent-hover transition font-medium" target="_blank" rel="noopener noreferrer">
+            <a href="https://buy.stripe.com/eVqbJ3crP19Z0GG9Jg6wE06" className="text-accent hover:text-accent-hover transition font-medium" target="_blank" rel="noopener noreferrer">
               absolutbuild.
             </a>
           </p>

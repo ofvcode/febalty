@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FeedbackWidget from "@/components/FeedbackWidget";
+import PaymentBar from "@/components/PaymentBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <PaymentBar />
         <FeedbackWidget />
       </body>
     </html>

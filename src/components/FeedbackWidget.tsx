@@ -50,7 +50,7 @@ export default function FeedbackWidget() {
       {/* Floating button */}
       <button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-6 right-6 z-50 bg-[#1e293b] text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all flex items-center justify-center"
+        className="fixed bottom-[76px] right-6 z-50 bg-[#1e293b] text-white w-14 h-14 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all flex items-center justify-center"
         aria-label="Send feedback"
       >
         {open ? (
@@ -66,7 +66,7 @@ export default function FeedbackWidget() {
 
       {/* Panel */}
       {open && (
-        <div className="fixed bottom-24 right-6 z-50 w-[340px] bg-white rounded-2xl shadow-2xl border border-[#e2e8f0] overflow-hidden animate-[slideUp_0.2s_ease]">
+        <div className="fixed bottom-[140px] right-6 z-50 w-[340px] bg-white rounded-2xl shadow-2xl border border-[#e2e8f0] overflow-hidden animate-[slideUp_0.2s_ease]">
           <div className="bg-[#1e293b] text-white p-5">
             <h3 className="font-bold text-lg">Request a Change</h3>
             <p className="text-slate-300 text-sm mt-1">Tell us what you would like updated.</p>
