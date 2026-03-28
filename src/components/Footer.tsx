@@ -53,7 +53,7 @@ export default function Footer() {
           </p>
           <p className="text-slate-500 text-sm">
             Built by{" "}
-            <a href="#" className="text-accent hover:text-accent-hover transition font-medium">
+            <a href="https://buy.stripe.com/5kQfZj0J719ZblkaNk6wE05" className="text-accent hover:text-accent-hover transition font-medium" target="_blank" rel="noopener noreferrer">
               absolutbuild.
             </a>
           </p>
